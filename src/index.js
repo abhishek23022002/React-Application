@@ -15,6 +15,7 @@ function Garage(params) {
 }
 function Car(props) {
   const hello = props.login
+  console.log("Incoming",hello)
 return(<>
   <Garage/>
   <h2>I will be a {hello} one day </h2>
@@ -27,7 +28,7 @@ return(<>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ForCSS/>
+    <LoginCredtionals/>
   </React.StrictMode>
 );
 
