@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginCredtionals from './Components/Login';
+import ForCSS from './Components/NewCss';
 
 
 function Garage(params) {
@@ -26,7 +27,7 @@ return(<>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginCredtionals/>
+    <ForCSS/>
   </React.StrictMode>
 );
 
