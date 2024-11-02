@@ -9,6 +9,7 @@ import Hellow from './Components/Buttons';
 import ClassFunc from './Components/stateusingclass'
 import Multiple from './Components/multiple_state';
 import Usestatewithclass from './Components/usestatewithclass';
+import Listss from './Components/ListaccessUSEstate';
 
 
 
@@ -37,7 +38,8 @@ root.render(
     {/* <ClassFunc/>
     <Hellow/> */}
    {/*  <Multiple/> */}
-   <Usestatewithclass/>
+{/*    <Usestatewithclass/> */}
+     <Listss/>
   </>
 );
 
