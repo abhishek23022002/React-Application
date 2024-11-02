@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginCredtionals from './Components/Login';
 import ForCSS from './Components/NewCss';
+import Hellow from './Components/Buttons';
+
+
 
 
 function Garage(params) {
@@ -28,7 +31,7 @@ return(<>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginCredtionals/>
+    <Hellow/>
   </React.StrictMode>
 );
 

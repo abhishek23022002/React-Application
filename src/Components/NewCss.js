@@ -1,6 +1,6 @@
 import './NewCSS.css'
 // The CSS file and the js file should be in the Same folder 
-// So better keep the component and style file i the same folder 
+// So better keep the component and style file i the same folder
 function ForCSS(params) {
 /*     const style1= {
          color : "Blue",
