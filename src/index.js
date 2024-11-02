@@ -8,6 +8,7 @@ import ForCSS from './Components/NewCss';
 import Hellow from './Components/Buttons';
 import ClassFunc from './Components/stateusingclass'
 import Multiple from './Components/multiple_state';
+import Usestatewithclass from './Components/usestatewithclass';
 
 
 
@@ -32,11 +33,12 @@ return(<>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     {/* <ClassFunc/>
     <Hellow/> */}
-    <Multiple/>
-  </React.StrictMode>
+   {/*  <Multiple/> */}
+   <Usestatewithclass/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
