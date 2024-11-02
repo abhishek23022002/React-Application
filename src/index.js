@@ -7,6 +7,7 @@ import LoginCredtionals from './Components/Login';
 import ForCSS from './Components/NewCss';
 import Hellow from './Components/Buttons';
 import ClassFunc from './Components/stateusingclass'
+import Multiple from './Components/multiple_state';
 
 
 
@@ -32,8 +33,9 @@ return(<>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ClassFunc/>
-    <Hellow/>
+    {/* <ClassFunc/>
+    <Hellow/> */}
+    <Multiple/>
   </React.StrictMode>
 );
 
