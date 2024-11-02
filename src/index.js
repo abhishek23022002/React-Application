@@ -10,6 +10,7 @@ import ClassFunc from './Components/stateusingclass'
 import Multiple from './Components/multiple_state';
 import Usestatewithclass from './Components/usestatewithclass';
 import Listss from './Components/ListaccessUSEstate';
+import Timer from './Components/Useeffect';
 
 
 
@@ -39,7 +40,8 @@ root.render(
     <Hellow/> */}
    {/*  <Multiple/> */}
 {/*    <Usestatewithclass/> */}
-     <Listss/>
+     {/* <Listss/> */}
+     <Timer/>
   </>
 );
 
