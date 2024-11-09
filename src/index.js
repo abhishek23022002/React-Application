@@ -13,6 +13,7 @@ import Listss from "./Components/ListaccessUSEstate";
 import Timer from "./Components/Useeffect";
 import Formss from "./Components/form";
 import RouteCalling from "./Components/Routecalling";
+import LoginPage from "./Components/Login_page";
 
 function Garage(params) {
   return <h2>Better one thing is true</h2>;
@@ -31,7 +32,6 @@ function Car(props) {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-
     {/* <ClassFunc/>
     <Hellow/> */}
     {/*  <Multiple/> */}
@@ -39,8 +39,8 @@ root.render(
     {/* <Listss/> */}
     {/*  <Timer/> */}
     {/* <Formss /> */}
-    <RouteCalling/>
-    
+    {/* <RouteCalling/> */}
+    <LoginPage/>
   </>
 );
 
